@@ -36,10 +36,4 @@ return (
 
 
 
-
-
-
-
-
-
 export default MyApp;

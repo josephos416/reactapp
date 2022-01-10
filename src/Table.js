@@ -1,4 +1,8 @@
 import React from 'react'
+
+
+
+
 function TableHeader()  {
   return (
     <thead>
@@ -9,6 +13,10 @@ function TableHeader()  {
     </thead>
   );
 }
+
+
+
+
 function TableBody(props) {
   const rows = props.characterData.map((row, index) => {
     return (
@@ -34,5 +42,7 @@ function Table(props) {
         <TableBody characterData={props.characterData} />
       </table>
     );
-} 
+}
+
+
 export default Table;
